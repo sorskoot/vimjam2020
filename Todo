@@ -1,0 +1,37 @@
+Idea:
+You are standing at an altar in a cave. The altar lights up in 3 different colors. 
+You'll have to follow the directions and go to the corresponding exits of the room 
+to find a gem. You need to go through the exits in reverse order to get back to the
+alter. After returning the gem you get 4 different colors and it starts over. 
+The goal is to collect as much gems as possible. A bit like the electronic Simon 
+Says game.
+Maybe we could add variations where it shows a non-existing color or gives you 
+an action like ducking or standing to the left or right to prevent death in a 
+room at that point.
+I think it's possible to build a proof of concept game in less than one week in 
+A-Frame, because we need to go VR :). 
+If we have enough time we can add better graphics.
+
+
+Must Have:
+    ☐ Room with Altar showing the colors
+    ☐ Room with Exits
+    ☐ Room with Gems
+    Game part:
+        ☐ Generate a color combination - start with 3 add a extra color every time. 
+        ☐ The sequence gets 1 longer every time a gem is returned. 
+        ☐ It's a whole new sequence every time.
+        
+
+Should Have:
+
+Could Have:
+
+Would Like:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ideas:
+    - Use the A-Frame/Three.js Effects to get glow/bloom
+    - Use navmesh
+    - Use Teleport-component
