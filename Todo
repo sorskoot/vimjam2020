@@ -1,4 +1,3 @@
-Idea:
 You are standing at an altar in a cave. The altar lights up in 3 different colors. 
 You'll have to follow the directions and go to the corresponding exits of the room 
 to find a gem. You need to go through the exits in reverse order to get back to the
@@ -12,23 +11,21 @@ I think it's possible to build a proof of concept game in less than one week in
 A-Frame, because we need to go VR :). 
 If we have enough time we can add better graphics.
 
-
 Must Have:
-    ✔ Room with Altar showing the colors @done(20-09-21 22:28)
-    ✔ Room with Exits @done(20-09-21 22:28)
-    ✔ Room with Gems @done(20-09-21 22:28)
-    Game part:
-        ✔ Generate a color combination - start with 3 add a extra color every time. @done(20-09-21 21:33)
-        ✔ The sequence gets 1 longer every time a gem is returned. @done(20-09-21 22:28)
-        ✔ It's a whole new sequence every time. @done(20-09-21 22:28)
-        ✔ Create a gem room with a gem @done(20-09-21 22:10)
-        ✔ Pick up the gem @done(20-09-21 22:10)
-        ✔ Get back to the Altar-room @done(20-09-21 22:10)
-        ✔ Place Gem @done(20-09-21 22:28)
+    ✔ Teleportation @done(20-09-21 23:17)
+    ☐ Replay sequence when touching Altar without Gem.
+    ☐ Go through the exit when close and touching in VR
+    ☐ Teleport to navmesh
+    Models:
+        ☐ Exits
+        ☐ Altar
+        ☐ Gem
+        ☐ General room stuff like rocks and pathways
 
 Should Have:
     ☐ Fade effect between rooms
-Could Have:
+
+Could have:
 
 Would Like:
 
@@ -38,3 +35,15 @@ Ideas:
     - Use the A-Frame/Three.js Effects to get glow/bloom
     - Use navmesh
     - Use Teleport-component
+
+Archive:
+  ✔ Room with Altar showing the colors @done(20-09-21 22:28) @project(Must Have)
+  ✔ Room with Exits @done(20-09-21 22:28) @project(Must Have)
+  ✔ Room with Gems @done(20-09-21 22:28) @project(Must Have)
+  ✔ Generate a color combination - start with 3 add a extra color every time. @done(20-09-21 21:33) @project(Must Have.Game part)
+  ✔ The sequence gets 1 longer every time a gem is returned. @done(20-09-21 22:28) @project(Must Have.Game part)
+  ✔ It's a whole new sequence every time. @done(20-09-21 22:28) @project(Must Have.Game part)
+  ✔ Create a gem room with a gem @done(20-09-21 22:10) @project(Must Have.Game part)
+  ✔ Pick up the gem @done(20-09-21 22:10) @project(Must Have.Game part)
+  ✔ Get back to the Altar-room @done(20-09-21 22:10) @project(Must Have.Game part)
+  ✔ Place Gem @done(20-09-21 22:28) @project(Must Have.Game part)

@@ -35,10 +35,19 @@
                 </a-entity> -->
             </a-entity>
         </a-entity>
-        <a-entity position="0 1.7 0" camera wasd-controls="acceleration:100" 
-            look-controls="pointerLockEnabled:false;touchEnabled:true" >
-            <a-entity id="cursor" cursor="rayOrigin: mouse" raycaster="objects:#room-altar .exit"></a-entity>
+        <a-entity id="cameraRig">
+            <!-- camera -->
+            <a-entity id="head" position="0 1.7 0" 
+                camera wasd-controls="acceleration:100"
+                
+                look-controls="pointerLockEnabled:false;touchEnabled:true">
+                <a-entity id="cursor" cursor="rayOrigin: mouse" raycaster="objects:#room-altar .exit"></a-entity>
+            </a-entity>
+            <!-- hand controls -->
+            <a-entity hand-controls="hand:left" id="left-hand" teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head;"></a-entity>
+            <a-entity  hand-controls="hand:right "id="right-hand" teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head;"></a-entity>
         </a-entity>
+
     </a-scene>
 </body>
 
