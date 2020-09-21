@@ -14,17 +14,20 @@ If we have enough time we can add better graphics.
 
 
 Must Have:
-    ☐ Room with Altar showing the colors
-    ☐ Room with Exits
-    ☐ Room with Gems
+    ✔ Room with Altar showing the colors @done(20-09-21 22:28)
+    ✔ Room with Exits @done(20-09-21 22:28)
+    ✔ Room with Gems @done(20-09-21 22:28)
     Game part:
-        ☐ Generate a color combination - start with 3 add a extra color every time. 
-        ☐ The sequence gets 1 longer every time a gem is returned. 
-        ☐ It's a whole new sequence every time.
-        
+        ✔ Generate a color combination - start with 3 add a extra color every time. @done(20-09-21 21:33)
+        ✔ The sequence gets 1 longer every time a gem is returned. @done(20-09-21 22:28)
+        ✔ It's a whole new sequence every time. @done(20-09-21 22:28)
+        ✔ Create a gem room with a gem @done(20-09-21 22:10)
+        ✔ Pick up the gem @done(20-09-21 22:10)
+        ✔ Get back to the Altar-room @done(20-09-21 22:10)
+        ✔ Place Gem @done(20-09-21 22:28)
 
 Should Have:
-
+    ☐ Fade effect between rooms
 Could Have:
 
 Would Like:

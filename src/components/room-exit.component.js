@@ -2,7 +2,7 @@ const { colors } = require("../definition/colors");
 
 AFRAME.registerComponent('room-exit', {
     schema: { default: 0 },
-    init:function(){
+    init:function(){        
         this.game = document.querySelector('[game]').components['game'];
         this.el.addEventListener('click',()=>{
             this.game.navigateTo(this.data);

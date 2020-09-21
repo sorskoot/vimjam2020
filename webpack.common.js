@@ -20,8 +20,9 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/preset-env'],
-                       plugins: ["@babel/plugin-syntax-numeric-separator"]
+                       presets: ['@babel/preset-env'],
+                       plugins: ["@babel/plugin-syntax-numeric-separator","wildcard"]
+
                     }
                 }
             },
